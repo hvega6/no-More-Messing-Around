@@ -6,7 +6,7 @@ import "../../styles/background.css";
 const background = () =>{
     return(
         <>
-        <div className="shadow-overlay"></div>
+        <aside className="shadow-overlay"></aside>
         <video 
             playsInline 
             autoPlay 
