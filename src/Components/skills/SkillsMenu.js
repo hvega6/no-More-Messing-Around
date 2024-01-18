@@ -25,22 +25,22 @@ export default class SkillsMenu extends Component {
 
   renderContent = (skills) => {
     return skills.map((skill, index) => (
-      <div
+      <section
         key={index}
         className={`skill-sub-container-${this.state.activeMenuItem}`}
       >
         <h3>{skill.title}</h3>
-        <div className="level-container">
+        <aside className="level-container">
           {[...Array(6)].map((_, i) => (
-            <div
+            <aside
               key={i}
               className={`level-point ${
                 i < skill.level ? "filled" : "unfilled"
               }`}
             />
           ))}
-        </div>
-      </div>
+        </aside>
+      </section>
     ));
   };
 

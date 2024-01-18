@@ -113,7 +113,7 @@ const skills = {
             level: 6,
         },
         {
-            title: "Measure and Optimization Marketing Campaigns",
+            title: "Optimizing Marketing Campaigns",
             level: 5,
         },
         {

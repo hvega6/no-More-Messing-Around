@@ -52,7 +52,7 @@ a {
         transform: translateX(0);
     }
     .nav{
-        top:calc(100vh - 3rem);
+        top:calc(100vh - 4rem);
         transform: translateX(-50%);
     }
     .nav-link{

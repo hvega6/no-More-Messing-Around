@@ -87,7 +87,7 @@
 @media (max-width: 1100px) {
     .project-menu{
         width: 28rem;
-        top: 23%;
+        top: 20%;
         transform: translateX(-50%);
     }
     .project-item{
