@@ -1,9 +1,8 @@
 import classNames from "classnames";
 import React, { Component } from "react";
 // Make sure you have the correct path for these images/components
-import '../../styles/projectMenu.css';
+import "../../styles/projectMenu.css";
 import projects from "./projectsData";
-
 
 class ProjectMenu extends Component {
   constructor(props) {
@@ -12,7 +11,7 @@ class ProjectMenu extends Component {
       activeMenuItem: 1, // Represents the active category e.g. FRONT-END
       activeProject: 1, // Represents the active project within the category
     };
-    
+
     this.menuItems = [
       "FRONT-END",
       "BACK-END",
@@ -20,6 +19,14 @@ class ProjectMenu extends Component {
       "MACHINE-LEARNING/AI",
       "MARKETING",
     ];
+
+    this.projectItems = {
+      1: ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE"],
+      2: ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE"],
+      3: ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE"],
+      4: ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE"],
+      5: ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE"],
+    };
   }
 
   handleMenuItemClick = (index) => {
@@ -46,14 +53,17 @@ class ProjectMenu extends Component {
         <h2>{project.title}</h2>
         <img src={project.image} alt={project.title} />
         <p>{project.description}</p>
-        <a src={project.github}>GITHUB</a>
-        <a src={project.demo}>DEMO</a>
+        <section className="link-container">
+        <a href={project.github} target="_blank" rel="noopener noreferrer">GITHUB</a>
+        <a href={project.demo} target="_blank" rel="noopener noreferrer">DEMO</a>
+        </section>
       </section>
     );
   };
 
   render() {
     const { activeMenuItem, activeProject } = this.state;
+    const projectTitles = this.projectItems[activeMenuItem] || [];
 
     return (
       <main>
@@ -72,31 +82,28 @@ class ProjectMenu extends Component {
         </section>
 
         {/* Show project titles that belong to the active category */}
+        {/* Show project titles that belong to the active category */}
         <section className="project-menu">
-          {projects[activeMenuItem] &&
-            Object.keys(projects[activeMenuItem]).map((key) => {
-              const project = projects[activeMenuItem][key];
-              return (
+            <section className="project-items-container">
+              {projectTitles.map((title, index) => (
                 <article
-                  key={key}
+                  key={index}
                   className={classNames("project-item", {
-                    active: activeProject === parseInt(key),
+                    activeProject: activeProject === index + 1,
                   })}
-                  onClick={() => this.handleProjectClick(parseInt(key))}
+                  onClick={() => this.handleProjectClick(index + 1)}
                 >
-                  <h2 className="title">{project.title}</h2>
+                  <h2 className="title">{title}</h2>
                 </article>
-              );
-            })}
-        {/* Project detail */}
-        <section>
-          {this.renderContent(projects)}
-        </section>
-        </section>
-
+              ))}
+            </section>
+            {/* Project detail */}
+            <section>{this.renderContent(projects)}</section>
+          </section>
       </main>
     );
   }
 }
+
 
 export default ProjectMenu;
