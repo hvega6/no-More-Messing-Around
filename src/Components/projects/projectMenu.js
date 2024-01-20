@@ -71,7 +71,7 @@ class ProjectMenu extends Component {
           {this.menuItems.map((item, index) => (
             <article
               key={index}
-              className={classNames("skill-item", {
+              className={classNames("skill-item-category", {
                 activeCategory: activeMenuItem === index + 1,
               })}
               onClick={() => this.handleMenuItemClick(index + 1)}

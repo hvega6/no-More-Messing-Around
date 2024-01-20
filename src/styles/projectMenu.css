@@ -95,10 +95,10 @@
         width: 100%;
     }
     .project-item.activeProject .title{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .title{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 

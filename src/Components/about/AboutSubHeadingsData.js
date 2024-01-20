@@ -5,18 +5,7 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            In 2014, amidst whirring gears and dancing circuits, I hacked my way
-            through robotics, learning the language of machines – Bash – that
-            would later form the bedrock of my digital odyssey. Five years
-            later, the web beckoned, and I dove into web development, weaving
-            pixels into interactive tapestries. UX/UI design became my brush,
-            marketing my palette, and the digital canvas my playground. 2023 saw
-            a symphony of skills – data science, AI, and machine learning –
-            joining the chorus, while social media marketing became the rhythm
-            that drove it all. Now, I stand here, a testament to the power of
-            continuous learning, a digital Swiss army knife, forged in the fires
-            of curiosity and tempered by the challenges of a constantly evolving
-            landscape. Bring on the next byte!
+          From robots to websites, I've been coding since 2014. My AI model saved a client 20% in costs, and my latest website boosted traffic by 50%. I'm fluent in UX/UI, data science, and social media marketing, ready to supercharge your digital presence. Explore my portfolio and let's chat!
           </p>
         </>
       ),

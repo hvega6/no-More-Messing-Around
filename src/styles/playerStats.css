@@ -46,7 +46,7 @@ h2{
     #playerStats{
         left: 50%;
         transform: translateX(-50%);
-        width: 8rem;
+        width: 10rem;
         height: 2.5rem;
         top: 1rem;
     }
