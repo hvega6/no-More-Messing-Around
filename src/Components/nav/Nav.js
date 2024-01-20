@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import astronautHelmet from "../assets/astronaut-helmet.png";
-import deadEye from "../assets/dead-eye.png";
-import envelope from "../assets/envelope.png";
-import stack from "../assets/stack.png";
-import "../styles/nav.css";
+import astronautHelmet from "../../assets/astronaut-helmet.png";
+import deadEye from "../../assets/dead-eye.png";
+import envelope from "../../assets/envelope.png";
+import stack from "../../assets/stack.png";
+import "../../styles/nav.css";
 
 export default function Nav() {
   const location = useLocation();

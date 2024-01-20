@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Nav from './Components/Nav.js';
 import About from "./Components/about/About.js";
 import Background from "./Components/background/Background.js";
 import Contact from "./Components/contact/Contact.js";
+import Nav from './Components/nav/Nav.js';
 import PlaterStats from "./Components/playerStats/PlayerStats.js";
 import Projects from "./Components/projects/Projects.js";
 import Skills from "./Components/skills/Skills.js";
