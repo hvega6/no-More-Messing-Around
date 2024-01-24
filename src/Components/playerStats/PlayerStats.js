@@ -9,7 +9,7 @@ const PlayerStats = () =>{
                 <span id='playerStats__lines__thick'></span>
                 <span id='playerStats__lines__thin'></span>
             </section>
-            <h2>Fullstack Developer, Data Analyst, Machine/AI Engineer, UI/UX Designer, Marketing Expert</h2>
+            <h2>Fullstack Developer, Data Scientist, Machine/AI Engineer, UI/UX Designer, Marketing Expert</h2>
         </header>
     )
 }
