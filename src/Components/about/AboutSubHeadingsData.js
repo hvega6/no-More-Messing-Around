@@ -5,7 +5,14 @@ const subheadingsData = {
       content: (
         <>
           <p>
-          From robots to websites, I've been coding since 2014. My AI model saved a client 20% in costs, and my latest website boosted traffic by 50%. I'm fluent in UX/UI, data science, and social media marketing, ready to supercharge your digital presence. Explore my portfolio and let's chat!
+            <h4>**Unlock Your Digital Potential**</h4>
+            As a digital enthusiast, I've developed a range of skills to drive
+            meaningful results. With expertise in AI development, web
+            development, and digital marketing, I create engaging chatbots,
+            visually stunning websites, and optimized online campaigns that
+            deliver real results. I'm passionate about leveraging technology to
+            drive business outcomes, and my experience has shown that innovative
+            solutions can make a tangible impact.
           </p>
         </>
       ),
@@ -13,14 +20,14 @@ const subheadingsData = {
   ],
   2: [
     {
-      title: "2031 Computer Sciense Doctor of Philosophy",
+      title: "2034 Computer Science Doctor of Philosophy",
       content: (
         <>
           <menu>
             <li>
-              Concentrations: Cognitive and Computational Neuroscience,
-              Biomedical Engineering, Computer Science, Economics, English
-              Literature
+              Concentrations: Artificial Intelligence (AI), Computer Networks,
+              Computer Vision, Human-Computer Interaction (HCI), Machine
+              Learning, Networked Systems, Security
             </li>
             <li>GPA: 4.0</li>
             <li>
@@ -33,7 +40,7 @@ const subheadingsData = {
       ),
     },
     {
-      title: "2027 Business Administration Masters Degree",
+      title: "2028 Business Administration Masters Degree",
       content: (
         <>
           <menu>
@@ -54,7 +61,7 @@ const subheadingsData = {
       ),
     },
     {
-      title: "2026 Business Administration Bachlors Degree",
+      title: "2027 Business Administration Bachelors Degree",
       content: (
         <>
           <menu>
@@ -74,7 +81,7 @@ const subheadingsData = {
       ),
     },
     {
-      title: "2025 Computer Science Bachlors Degree",
+      title: "2026 Computer Science Bachelors Degree",
       content: (
         <>
           <menu>

@@ -87,6 +87,14 @@ const skills = {
     ],
     4: [
         {
+            title: "Unsupervised Learning",
+            level: 5,
+        },
+        {
+            title: "Supervised Learning",
+            level: 4,
+        },
+        {
             title: "Generative AI",
             level: 4,
         },

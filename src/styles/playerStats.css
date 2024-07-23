@@ -1,5 +1,5 @@
 #playerStats {
-    width: 15rem;
+    width: 13rem;
     height: 4rem;
     position: fixed;
     display: flex;
@@ -30,7 +30,7 @@ h2{
     left: 0;
     background-color: white;
     height: 0.2rem;
-    width: 6.75rem;
+    width: 115.75rem;
 }
 
 #playerStats__lines__thin{
