@@ -4,7 +4,7 @@ import "../../styles/playerStats.css";
 const PlayerStats = () =>{
     return (
         <header id='playerStats'>
-            <h1>Hugo Vega Level 23</h1>
+            <h1>Hugo Vega Level 24</h1>
             <section id='playerStats__lines'>
                 <span id='playerStats__lines__thick'></span>
                 <span id='playerStats__lines__thin'></span>
