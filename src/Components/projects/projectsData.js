@@ -5,15 +5,15 @@ import projectThree from "../../assets/project-3.png";
 const projects = {
     1:{
         1:{
-            title: "Social Media Platform",
+            title: "AI/ML/DL Roadmap",
             image: projectOne,
             description: (
                     <>
                         <p></p>
                     </>
             ),
-            github: "https://github.com/",
-            demo: "https://netlify.com"
+            github: "https://github.com/hvega6/AI-ML-DL-roadmap/tree/main/frontend",
+            demo: "https://ai-ml-dl-roadmap.onrender.com"
         },
         2:{
             title: "Productivity App",
@@ -40,15 +40,15 @@ const projects = {
     },
     2:{
         1:{
-            title: "Social Media Platform",
+            title: "AI/ML/DL Roadmap",
             image: projectOne,
             description: (
                     <>
                         <p></p>
                     </>
             ),
-            github: "https://github.com/",
-            demo: "https://netlify.com"
+            github: "https://github.com/hvega6/AI-ML-DL-roadmap/tree/main/backend",
+            demo: "https://ai-ml-dl-roadmap-backend.onrender.com"
         },
         2:{
             title: "Productivity App",
